@@ -1,0 +1,107 @@
+
+
+body{
+  padding: 100px;
+  margin:0px;
+  font-family:Arial, sans-serif;
+  background-color:#1F1F1F;
+
+
+}
+
+header{
+  color:#B0B0B0;
+  text-align: center;
+  padding: 20px;
+  margin: 5px 5px 5px 5px;
+}
+
+h1{
+  margin:0px;
+}
+
+.outer.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.input {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#inputbox {
+  width: 200px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  max-width: 220px;
+  margin: 0 auto;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  background-color:#8c5858;
+  color:#ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  color:#160101;
+  background-color:#f6e8e8
+}
+
+#equal {
+  grid-column: span 2;
+}
+
+#clear {
+  background-color: #b7acac;
+  color:black;
+}
+
+#clear:hover{
+  background-color: #37a0e6;
+}
+
+#bracket{
+  background-color:#b7acac;
+  color:black;
+}
+
+#bracket:hover{
+  background-color:#ACF63C;
+}
+
+#percent{
+  background-color: #b7acac;
+  color:black;
+}
+
+#percent:hover{
+  background-color: #ACF63C;
+}
+
+#operator {
+  background-color:#f6b43b;
+  color:#ffffff;
+}
+
+#operator:hover{
+  background-color: #ee9dee;
+}
+
+
+
+
+
